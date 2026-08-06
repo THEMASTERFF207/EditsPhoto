@@ -183,19 +183,9 @@ sealed class Setting(
         subtitle = R.string.group_options_by_type_sub
     )
 
-    data object HelpTranslate : Setting(
-        title = R.string.help_translate,
-        subtitle = R.string.help_translate_sub
-    )
-
     data object ImagePickerMode : Setting(
         title = R.string.photo_picker,
         subtitle = R.string.photo_picker_sub
-    )
-
-    data object IssueTracker : Setting(
-        title = R.string.issue_tracker,
-        subtitle = R.string.issue_tracker_sub
     )
 
     data object LockDrawOrientation : Setting(
@@ -246,16 +236,6 @@ sealed class Setting(
     data object ScreenSearch : Setting(
         title = R.string.search_option,
         subtitle = R.string.search_option_sub
-    )
-
-    data object SourceCode : Setting(
-        title = R.string.check_source_code,
-        subtitle = R.string.check_source_code_sub
-    )
-
-    data object Telegram : Setting(
-        title = R.string.tg_chat,
-        subtitle = R.string.tg_chat_sub
     )
 
     data object AutoPinClipboard : Setting(

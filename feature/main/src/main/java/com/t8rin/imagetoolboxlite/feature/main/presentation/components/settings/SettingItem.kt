@@ -284,18 +284,10 @@ internal fun SettingItem(
             )
         }
 
-        Setting.HelpTranslate -> {
-            HelpTranslateSettingItem()
-        }
-
         Setting.ImagePickerMode -> {
             ImagePickerModeSettingItemGroup(
                 updateImagePickerMode = viewModel::setImagePickerMode
             )
-        }
-
-        Setting.IssueTracker -> {
-            IssueTrackerSettingItem()
         }
 
         Setting.LockDrawOrientation -> {
@@ -383,19 +375,6 @@ internal fun SettingItem(
             ScreenSearchSettingItem(
                 onClick = { viewModel.toggleScreenSearchEnabled() }
             )
-        }
-
-        Setting.SourceCode -> {
-            SourceCodeSettingItem(
-                shape = ContainerShapeDefaults.bottomShape,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 8.dp)
-            )
-        }
-
-        Setting.Telegram -> {
-            TelegramSettingItem()
         }
 
         Setting.CheckUpdatesButton -> {
