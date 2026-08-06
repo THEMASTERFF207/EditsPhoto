@@ -4,5 +4,8 @@
         <cache-path
             name="shared_images"
             path="/" />
+        <external-path
+            name="downloads"
+            path="." />
     </paths>
 </resources>
