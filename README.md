@@ -40,5 +40,3 @@ Web: https://mi-link-web.netlify.app/
 Designed and developed by THEMASTERFF207
 
 Licensed under the Apache License, Version 2.0
-
-Based on Image Toolbox Lite by T8RIN — Apache 2.0 License.
